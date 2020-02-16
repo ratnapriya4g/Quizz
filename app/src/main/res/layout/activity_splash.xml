@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@drawable/spl"
+    android:weightSum="2">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/splashImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:transitionName="logo_image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center"
+        android:src="@drawable/newsplashicon"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/splashLogo"
+        android:fontFamily="@font/bangers"
+        android:layout_above="@id/splashSlogan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:transitionName="logo_text"
+        android:text="@string/get_started"
+        android:textAlignment="center"
+        android:textColor="#f1cb14"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashSlogan"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aguafina_script"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/the_power_of_dreams"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+
+</RelativeLayout>

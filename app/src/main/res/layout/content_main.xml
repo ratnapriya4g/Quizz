@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spl"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:background="@drawable/activity_bg"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:text="@string/category"
+            android:textStyle="italic|bold"
+            android:paddingBottom="40dp"
+            android:fontFamily="sans-serif"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/c_programming"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/c"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/jav"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/java"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/py"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/python"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/webdev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/webde"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/webdev"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/androappdev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/androdev"
+                android:elevation="20dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/androappdev"
+                android:textAllCaps="false"
+                android:textColor="#0A0A0A"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/advrobo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/adrobo"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/advrobo"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="12dp">
+            <Button
+                android:id="@+id/ethicalhack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/ethichack"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/ethicalhack"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp"/>
+
+
+            <Button
+                android:id="@+id/autocad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/aucad"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/autocad"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/raspberrypi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:elevation="20dp"
+                android:background="@drawable/course_btn_bg"
+                android:drawableTop="@drawable/raspbi"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/raspberrypi"
+                android:textAllCaps="false"
+                android:textColor="#131313"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <string name="category">Choose From our Best Courses</string>
+    <string name="c">C/C++</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="webdev">Web Development</string>
+    <string name="advrobo">Advance\n Robotics</string>
+    <string name="androappdev">Android \n Development</string>
+    <string name="autocad">Auto CAD</string>
+    <string name="ethicalhack">Ethical Hacking</string>
+    <string name="raspberrypi">Raspberrypi</string>
+    <string name="start">Start Quiz</string>
+    <string name="sets">Sets</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Profile</string>
+    <string name="menu_gallery">Contact Us</string>
+    <string name="menu_slideshow">Expert</string>
+    <string name="menu_tools">Bookmark</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Recommendation</string>
+    <string name="expertheadline">Our Educator</string>
+    <string name="expert">We are Experts</string>
+    <string name="ashish">Ashish Kumar</string>
+    <string name="ashishdetail">ROBOTICS\n
+                                7+ Years of Training Expertise \n
+                                Project Developer | CTO, ISERA</string>
+    <string name="sau">Saurabh Gupta</string>
+    <string name="saudetail">CAD\n
+                            Professional CAD Trainer\n
+                            5+ years of Exp. | CAD Trainer, ISERA</string>
+    <string name="gau">Gautam Kumar</string>
+    <string name="gaudetail">GRAPHICS \n
+                             Master in Graphics Designing \n
+                             5+ years of Exp. | UX/UI Designer, ISERA</string>
+    <string name="contactheadline">Our working hours: Monday to Friday,\n
+                                  10:00 AM - 6:00 PM </string>
+    <string name="contactbutton">Student - Internships\n
+                                For internship related queries,\n
+                                vist Head Office.</string>
+    <string name="contactbutton1">Vist Head Office</string>
+    <string name="contactdial">For others, Contact us</string>
+    <string name="contactdialno1">+91 7979038537</string>
+    <string name="contactdialno2">+91 7001685402</string>
+    <string name="contactemail">Email Us</string>
+    <string name="contactemailaddrs">contact@isera.in</string>
+    <string name="contactaddress">Address</string>
+    <string name="contactaddress1">Plot No. 404, 3rd Floor Sentrum Mall New Shristinagar, Asansol-713305 West Bengal</string>
+    <string name="logout">Logout</string>
+    <string name="congratulations">Congratulations !</string>
+    <string name="scored_marks">You Scored  marks</string>
+    <string name="questions">Questions:</string>
+    <string name="get_started">Get Started</string>
+    <string name="the_power_of_dreams">The Power of Dreams</string>
+    <string name="welcome">Welcome</string>
+    <string name="signup_to_start_your_new_journey">SignUp to start your new Journey</string>
+    <string name="already_have_an_account_login">Already have an account? LogIn</string>
+    <string name="password_recovery">Password Recovery</string>
+</resources>

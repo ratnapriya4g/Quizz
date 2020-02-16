@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/scored_image"
+            android:elevation="20dp"
+            android:src="@drawable/good"/>
+
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:padding="20dp"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/congratulations"
+            android:textAlignment="center"/>
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/scored"
+          android:textSize="28sp"
+          android:textStyle="bold|italic"
+          android:textColor="@android:color/holo_blue_dark"
+          android:text="@string/scored_marks"
+          android:textAlignment="center"/>
+        <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total"
+            android:padding="24dp"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="Out Of 10"
+            android:textAlignment="center"/>-->
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_activity"
+        android:elevation="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/done_btn"
+        android:text="Done"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
